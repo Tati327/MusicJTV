@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Reproductor de Música</title>
+  <!-- Enlace correcto al archivo CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="player">
+    <h1>🎶 Mi Música</h1>
+    <img src="https://via.placeholder.com/200x200?text=Album" alt="Portada del álbum">
+    <h2>Canción de Ejemplo</h2>
+    <audio id="audio" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+    <div class="controls">
+      <button onclick="document.getElementById('audio').play()">▶️ Reproducir</button>
+      <button onclick="document.getElementById('audio').pause()">⏸️ Pausar</button>
+    </div>
+  </div>
+</body>
+</html>
